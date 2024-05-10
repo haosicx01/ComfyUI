@@ -1,55 +1,42 @@
-## ComfyUI-Manager: installing dependencies. (GitPython)
-[2024-05-09 18:22] ## ComfyUI-Manager: installing dependencies done.
-[2024-05-09 18:22] ** ComfyUI startup time: 2024-05-09 18:22:18.860672
-[2024-05-09 18:22] ** Platform: Darwin
-[2024-05-09 18:22] ** Python version: 3.9.6 (default, Feb  3 2024, 15:58:27) 
-[Clang 15.0.0 (clang-1500.3.9.4)]
-[2024-05-09 18:22] ** Python executable: /Users/haosicx/Desktop/ComfyUI/venv/bin/python
-[2024-05-09 18:22] ** Log path: /Users/haosicx/Desktop/ComfyUI/comfyui.log
-[2024-05-09 18:22] 
+## ComfyUI-Manager: installing dependencies done.
+[2024-05-10 15:36] ** ComfyUI startup time: 2024-05-10 15:36:16.098157
+[2024-05-10 15:36] ** Platform: Darwin
+[2024-05-10 15:36] ** Python version: 3.10.0 (default, May 10 2024, 11:37:12) [Clang 15.0.0 (clang-1500.3.9.4)]
+[2024-05-10 15:36] ** Python executable: /Users/haosicx/ai/ComfyUI/.venv/bin/python
+[2024-05-10 15:36] ** Log path: /Users/haosicx/ai/ComfyUI/comfyui.log
+[2024-05-10 15:36] 
 Prestartup times for custom nodes:
-[2024-05-09 18:22]    7.0 seconds: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-05-09 18:22] 
+[2024-05-10 15:36]    0.1 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-10 15:36] 
 Total VRAM 16384 MB, total RAM 16384 MB
-[2024-05-09 18:22] Set vram state to: SHARED
-[2024-05-09 18:22] Device: mps
-[2024-05-09 18:22] VAE dtype: torch.float32
-[2024-05-09 18:22] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
-[2024-05-09 18:22] ### Loading: ComfyUI-Manager (V2.29)
-[2024-05-09 18:22] ### ComfyUI Revision: 2167 [cd07340d] | Released on '2024-05-08'
-[2024-05-09 18:22] 
+[2024-05-10 15:36] Set vram state to: SHARED
+[2024-05-10 15:36] Device: mps
+[2024-05-10 15:36] VAE dtype: torch.float32
+[2024-05-10 15:36] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-10 15:36] ### Loading: ComfyUI-Manager (V2.29)
+[2024-05-10 15:36] ### ComfyUI Revision: 2170 [52198e98] | Released on '2024-05-09'
+[2024-05-10 15:36] [1;35m### [START] ComfyUI AlekPet Nodes ###[0m
+[2024-05-10 15:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-10 15:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-10 15:36] [92mNode -> PainterNode [Loading][0m
+[2024-05-10 15:36] [92mNode -> PoseNode [Loading][0m
+[2024-05-10 15:36] [92mNode -> GoogleTranslateNode [Loading][0m
+[2024-05-10 15:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-10 15:36] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-10 15:36] [92mNode -> DeepTranslatorNode [Loading][0m
+[2024-05-10 15:36] [92mNode -> ArgosTranslateNode [Loading][0m
+[2024-05-10 15:36] [92mNode -> ExtrasNode [Loading][0m
+[2024-05-10 15:36] [1;35m### [END] ComfyUI AlekPet Nodes ###[0m
+[2024-05-10 15:36] 
 Import times for custom nodes:
-[2024-05-09 18:22]    0.0 seconds: /Users/haosicx/Desktop/ComfyUI/custom_nodes/websocket_image_save.py
-[2024-05-09 18:22]    0.0 seconds: /Users/haosicx/Desktop/ComfyUI/custom_nodes/AIGODLIKE-COMFYUI-TRANSLATION
-[2024-05-09 18:22]    0.1 seconds: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager
-[2024-05-09 18:22] 
-[2024-05-09 18:22] Starting server
+[2024-05-10 15:36]    0.0 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-05-10 15:36]    0.0 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/AIGODLIKE-COMFYUI-TRANSLATION
+[2024-05-10 15:36]    0.0 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-05-10 15:36]    0.1 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-10 15:36]    0.1 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-05-10 15:36]    3.5 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/ComfyUI_Custom_Nodes_AlekPet
+[2024-05-10 15:36] 
+[2024-05-10 15:36] Starting server
 
-[2024-05-09 18:22] To see the GUI go to: http://127.0.0.1:8188
-[2024-05-09 18:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
-[2024-05-09 18:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
-[2024-05-09 18:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
-[2024-05-09 18:22] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
-[2024-05-09 18:22] FETCH DATA from: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-05-09 18:22] got prompt
-[2024-05-09 18:22] model_type EPS
-[2024-05-09 18:22] Using split attention in VAE
-[2024-05-09 18:22] Using split attention in VAE
-[2024-05-09 18:22] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
-[2024-05-09 18:22] Requested to load SD1ClipModel
-[2024-05-09 18:22] Loading 1 new model
-[2024-05-09 18:22] Requested to load BaseModel
-[2024-05-09 18:22] Loading 1 new model
-[2024-05-09 18:23] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:45<00:00,  1.82s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:45<00:00,  2.29s/it]
-[2024-05-09 18:23] Requested to load AutoencoderKL
-[2024-05-09 18:23] Loading 1 new model
-[2024-05-09 18:23] Prompt executed in 57.10 seconds
-[2024-05-09 18:24] got prompt
-[2024-05-09 18:24] 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:36<00:00,  1.83s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:36<00:00,  1.84s/it]
-[2024-05-09 18:24] Requested to load AutoencoderKL
-[2024-05-09 18:24] Loading 1 new model
-[2024-05-09 18:24] Prompt executed in 40.94 seconds
-[2024-05-09 18:27] FETCH DATA from: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
-[2024-05-09 18:32] FETCH DATA from: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
-[2024-05-09 18:32] FETCH DATA from: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
-[2024-05-09 18:32] FETCH DATA from: /Users/haosicx/Desktop/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-05-10 15:36] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-10 15:36] FETCH DATA from: /Users/haosicx/ai/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json

@@ -1,0 +1,24 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-05-10 15:34] ** ComfyUI startup time: 2024-05-10 15:34:40.724123
+[2024-05-10 15:34] ** Platform: Darwin
+[2024-05-10 15:34] ** Python version: 3.10.0 (default, May 10 2024, 11:37:12) [Clang 15.0.0 (clang-1500.3.9.4)]
+[2024-05-10 15:34] ** Python executable: /Users/haosicx/.pyenv/versions/3.10.0/bin/python
+[2024-05-10 15:34] ** Log path: /Users/haosicx/ai/ComfyUI/comfyui.log
+[2024-05-10 15:34] 
+Prestartup times for custom nodes:
+[2024-05-10 15:34]    0.1 seconds: /Users/haosicx/ai/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-05-10 15:34] 
+Traceback (most recent call last):
+[2024-05-10 15:34]   File "/Users/haosicx/ai/ComfyUI/main.py", line 76, in <module>
+[2024-05-10 15:34]     import execution
+[2024-05-10 15:34]   File "/Users/haosicx/ai/ComfyUI/execution.py", line 11, in <module>
+[2024-05-10 15:34]     import nodes
+[2024-05-10 15:34]   File "/Users/haosicx/ai/ComfyUI/nodes.py", line 21, in <module>
+[2024-05-10 15:34]     import comfy.diffusers_load
+[2024-05-10 15:34]   File "/Users/haosicx/ai/ComfyUI/comfy/diffusers_load.py", line 3, in <module>
+[2024-05-10 15:34]     import comfy.sd
+[2024-05-10 15:34]   File "/Users/haosicx/ai/ComfyUI/comfy/sd.py", line 5, in <module>
+[2024-05-10 15:34]     from comfy import model_management
+[2024-05-10 15:34]   File "/Users/haosicx/ai/ComfyUI/comfy/model_management.py", line 1, in <module>
+[2024-05-10 15:34]     import psutil
+[2024-05-10 15:34] ModuleNotFoundError: No module named 'psutil'
